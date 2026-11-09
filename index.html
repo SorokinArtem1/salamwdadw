@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Расписание занятий 1 класса</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="page-header">
+      <p class="eyebrow">Школьный портал</p>
+      <h1>Расписание занятий</h1>
+      <p class="subtitle">1 класс · учебная неделя</p>
+    </header>
+
+    <section class="schedule-section">
+      <h2>Понедельник — среда</h2>
+      <!-- Расписание этой части находится в отдельном файле part1.html -->
+      <iframe src="part1.html" title="Расписание с понедельника по среду" loading="lazy"></iframe>
+    </section>
+
+    <section class="schedule-section">
+      <h2>Четверг — суббота</h2>
+      <!-- Расписание этой части находится в отдельном файле part2.html -->
+      <iframe src="part2.html" title="Расписание с четверга по субботу" loading="lazy"></iframe>
+    </section>
+
+    <footer>Учебный пример для лабораторной работы №5 · HTML, CSS и Git</footer>
+  </main>
+</body>
+</html>
